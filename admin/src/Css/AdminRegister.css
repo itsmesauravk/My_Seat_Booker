@@ -1,0 +1,81 @@
+.admin-register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    width: 100%; /* Ensure full viewport width on smaller screens */
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 350px; /* Adjust form width as needed */
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;
+    padding: 15px 20px;
+    background-color: #C40C0C; /* Theme color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #b20909;
+  }
+  
+  .already-registered {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .already-registered a {
+    color: #C40C0C; /* Theme color */
+    text-decoration: none;
+  }
+  
+  .already-registered a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Media queries for smaller screens (optional) */
+  @media (max-width: 768px) {
+    form {
+      width: 90%; /* Adjust form width for smaller screens */
+    }
+  }
+  

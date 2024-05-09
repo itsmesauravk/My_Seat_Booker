@@ -1,0 +1,124 @@
+
+.main-homepage-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 1200px; /* Set a maximum width for larger screens */
+  }
+  
+  .ticket-book-bus {
+    width: 100%; 
+   
+  }
+  
+  .bus-ticket-book-title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+
+  }
+  
+  .bus-ticket-booking-part {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .bus-ticketing {
+    width: 45%; 
+  }
+  
+  .bus-ticket-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .bus-ticket-form label {
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-size: 22px;
+  }
+  
+  .bus-ticket-form input[type="text"],
+  .bus-ticket-form input[type="date"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  .bus-ticket-form button {
+    background-color: #C40C0C; /* Theme color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .bus-ticket-form button:hover {
+    background-color: #b20909;
+  }
+  
+  .advertising {
+    width: 50%; /* Adjust width as needed */
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .text-ads {
+    margin-bottom: 20px;
+  }
+  
+  .text-ads h1 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .bus-offer-ads {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Add spacing between offers */
+  }
+  
+  .bus-offer-ads p {
+    font-weight: bold;
+  }
+  
+
+  /* for showing ads  */
+
+  .page-discount-ad{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #f0f0f0;
+    padding: 10px 0;
+    border-radius: 30px;
+  }
+
+  .page-dis-offers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .page-dis-offers .img1,.img3{
+    width: 170px;
+    height: 100px;
+    object-fit: contain;
+  }
+  .page-dis-offers .img2{
+    width: 570px;
+    height: 100px;
+    object-fit: contain;
+  }
+  

@@ -1,0 +1,56 @@
+.navbar {
+    background-color: #fff; 
+    color: black; 
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .theme-color{
+    color: #C40C0C;
+}
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+    max-width: 1200px;
+    margin: 0 auto; 
+    /* background-color: red; */
+  }
+  
+  .brand-logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: inherit; /* Inherit color from navbar */
+  }
+  
+  .nav-list-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    border: 2px solid #C40C0C;
+    padding: 10px;
+    border-radius: 15px;
+  }
+  
+ 
+  
+  .nav-list-login a {
+    text-decoration: none;
+    color: inherit; /* Inherit color from navbar */
+    font-weight: bold;
+  }
+  
+  .nav-list-login a:hover {
+    color: #C40C0C;
+  }
+  

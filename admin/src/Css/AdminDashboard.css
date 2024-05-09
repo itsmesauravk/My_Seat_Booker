@@ -1,0 +1,40 @@
+.admin-dashboard {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .summary-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
+    margin-bottom: 20px;
+  }
+  
+  .summary-card {
+    width: calc(33% - 20px); /* Adjust width based on number of cards */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .summary-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .summary-card p {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  /* AdminNavbar styles (assuming AdminNavbar.css exists) */
+  /* ... */
+  

@@ -1,0 +1,123 @@
+.login-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    }
+    
+    .login-image {
+    flex: 1;
+    
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    }
+    
+    .login-content {
+    flex: 1;
+    padding: 60px;
+    background-color: #fff;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    border-radius: 10px;
+    
+    }
+    
+    .login-content h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #C40C0C;
+    }
+    
+    .form-group {
+    margin-bottom: 15px;
+    }
+    
+    .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+    }
+    
+    .form-group input,
+    .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    }
+    
+    .form-group textarea {
+    height: 80px;
+    }
+    
+    .form-group input:focus,
+    .form-group textarea:focus {
+    outline: none;
+    border-color: #C40C0C;
+    }
+    
+    .form-group .fa-eye {
+    cursor: pointer;
+    color: #999;
+    }
+    
+    .form-group .fa-eye-slash {
+    color: #C40C0C;
+    }
+    
+    .form-group button {
+    width: 100%;
+    padding: 15px 20px;
+    background-color: #C40C0C;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    }
+    
+    .form-group button:hover {
+    background-color: #b20909;
+    }
+
+    .show-pass{
+        cursor: pointer;
+        padding: 10px;
+        width: 60px;
+        font-weight: bold;
+        margin-top: 0.5rem;
+        
+    }
+    
+    .continue-with {
+    text-align: center;
+    margin-top: 20px;
+    }
+    
+    .continue-with span {
+    color: #333;
+    margin-right: 10px;
+    }
+    
+    .continue-with button {
+    padding: 5px 10px;
+    background-color: #fff;
+    border: 1px solid #C40C0C;
+    color: #C40C0C;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    }
+    
+    .continue-with button:hover {
+    background-color: #f8f8f8;
+    }
+    
+    .google-btn {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    }
