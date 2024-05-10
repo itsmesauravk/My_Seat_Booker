@@ -1,0 +1,46 @@
+/* DistNavbar.css */
+
+.dist-navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e2dbdb;
+    color: black;
+    padding: 10px 20px;
+  }
+  
+  .dist-navbar .logo{
+    text-decoration: none;
+    
+  }
+  .dist-navbar .logo h1 {
+    margin: 0;
+    font-size: 24px;
+    color: black;
+  }
+  
+  .dist-navbar ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .dist-navbar ul li {
+    margin-right: 15px;
+  }
+  
+  .dist-navbar ul li a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .dist-navbar ul li a:hover {
+    color: #b20909;
+  }
+  

@@ -6,6 +6,10 @@ import LoginPage from './Pages/LoginPage';
 import RegisterPage from './Pages/RegisterPage';
 import DistributorLogin from './Pages/DistributorLogin';
 import Homepage from './Pages/Homepage';
+import DistHomepage from './Pages/DistHomepage';
+import DistVehicle from './Pages/DistVehicle';
+import DistAddVehicle from './Pages/DistAddVehicle';
+import DistUpdateDateTime from './Pages/DistUpdateDateTime';
 
 function App() {
   return (
@@ -13,6 +17,11 @@ function App() {
       <Routes>
         {/* for distributor  */}
          <Route path="/distributor/login" element={<DistributorLogin />} />
+         <Route path="/distributor/profile" element={<DistHomepage />} />
+         <Route path="/distributor/vehicles" element={<DistVehicle/>} />
+         <Route path="/distributor/add-vehicle" element={<DistAddVehicle />} />
+         <Route path="/distributor/update-date-time" element={<DistUpdateDateTime />} />
+
 
         {/* for user  */}
         <Route path="/" element={<Homepage />} />
