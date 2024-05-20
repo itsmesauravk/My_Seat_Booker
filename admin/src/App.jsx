@@ -6,6 +6,9 @@ import AdminDashboard from './Pages/AdminDashboard'
 import AdminLogin from './Pages/AdminLogin'
 import AdminRegister from './Pages/AdminRegister'
 import AdminAddDistributor from './Pages/AdminAddDistributor'
+import AdminSeeUsers from './Pages/AdminSeeUsers'
+import AdminSeeDistributors from './Pages/AdminSeeDistributors'
+import AdminSeeBuses from './Pages/AdminSeeBuses'
 
 function App() {
 
@@ -17,6 +20,9 @@ function App() {
         <Route path='/admin/login' element={<AdminLogin/>} />
         <Route path='/admin/register' element={<AdminRegister/>} />
         <Route path='/admin/add-distributor' element={<AdminAddDistributor/>} />
+        <Route path='/admin/users' element={<AdminSeeUsers/>} />
+        <Route path='/admin/distributors' element={<AdminSeeDistributors/>} />
+        <Route path='/admin/buses' element={<AdminSeeBuses/>}/>
         <Route path='*'>404 Not Found</Route>
       </Routes>
     </Router>
