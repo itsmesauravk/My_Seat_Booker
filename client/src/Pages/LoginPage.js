@@ -3,7 +3,6 @@ import '../Css/LoginPage.css';
 import { Link } from 'react-router-dom';
 
 
-// const busImage = 'https://png.pngtree.com/thumb_back/fh260/background/20230707/pngtree-d-render-of-a-white-coach-tour-bus-driving-towards-pointer-image_3802595.jpg'; // Import the image
 const  busImage = './images/bus.jpg'; 
 
 
