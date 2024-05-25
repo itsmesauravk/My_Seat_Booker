@@ -411,10 +411,13 @@
 .footer-container {
   display: flex;
   justify-content: space-between;
+  gap: 20px;
   flex-wrap: wrap;
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;
+  max-width: 1200px;
+  
 }
 
 .footer-section {
@@ -428,6 +431,7 @@
   margin-bottom: 15px;
   color: #ff6f61;
 }
+
 
 .footer-section p,
 .footer-section ul,
