@@ -25,6 +25,7 @@ const AdminRegister = () => {
         toast.error("Registration Failed!!", {
             position: 'top-right',
             autoClose: 2000,
+        
         });
     };
 
