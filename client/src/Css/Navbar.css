@@ -22,10 +22,12 @@
   }
   
   .brand-logo {
+    display: flex;
+    align-items: center;
     font-size: 1.5em;
     font-weight: bold;
     text-decoration: none;
-    color: inherit; /* Inherit color from navbar */
+    color: inherit; 
   }
   
   .nav-list-login {
@@ -54,3 +56,9 @@
     color: #C40C0C;
   }
   
+
+  .logo-img{
+    width: 45px;
+    height: 45px;
+    
+  }

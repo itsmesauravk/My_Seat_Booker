@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../Components/Navbar'
 import Categories from '../Components/Categories'
 import '../Css/Homepage.css'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import AboutUsUser from '../Components/AboutUsUser'
 import FaqUser from '../Components/FaqUser'
@@ -12,6 +12,12 @@ import PrivateDistributorsUser from '../Components/PrivateDistributorsUser'
 import GovernmentDistributorUser from '../Components/GovernmentDistributorUser'
 
 const Homepage = () => {
+    const navigate = useNavigate()
+
+
+    const handleBusSearches = () => {
+        navigate('/buses-results')
+    }
   return (
     <>
         <Navbar />
@@ -22,7 +28,7 @@ const Homepage = () => {
                 <div className='bus-ticket-book-title'>Book Your Bus Ticket</div>
                 <div className='bus-ticket-booking-part'>
                     <div className='bus-ticketing'>
-                        <form className='bus-ticket-form'>
+                        <form className='bus-ticket-form' onSubmit={handleBusSearches}>
                             <label htmlFor='from'>From</label>
                             <input type='text' id='from' placeholder='Enter your location' />
                             <label htmlFor='to'>To</label>

@@ -10,6 +10,7 @@ import DistHomepage from './Pages/DistHomepage';
 import DistVehicle from './Pages/DistVehicle';
 import DistAddVehicle from './Pages/DistAddVehicle';
 import DistUpdateDateTime from './Pages/DistUpdateDateTime';
+import ShowSearchBuses from './Pages/ShowSearchBuses';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/" element={<Homepage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path='/register' element={<RegisterPage/>} />
+        <Route path='/buses-results' element={<ShowSearchBuses />} />
       </Routes>
     </Router>
   );

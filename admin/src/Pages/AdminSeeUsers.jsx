@@ -30,7 +30,7 @@ const AdminSeeUsers = () => {
 
   return (
     <>
-    <AdminNavbar />
+    <AdminNavbar  />
     <div>AdminSeeUsers</div>
     </>
   )
