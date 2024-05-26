@@ -36,12 +36,7 @@ const AdminSchema = new mongoose.Schema({
         require: true,
         minlength: 6,
         maxlength: 100,
-        validate: {
-            validator: function(v) {
-                return /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$/.test(v);
-            },
-            message: props => `Password must contain at least one letter and one number!`
-        }
+        
     }
 })
 
