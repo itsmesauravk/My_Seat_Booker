@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom';
 import '../Css/AdminRegister.css'; 
 
 // Import react-toastify
-import { toast, ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { toast} from 'react-toastify';
 
 const AdminRegister = () => {
     const [username, setUsername] = useState('');
@@ -12,7 +11,8 @@ const AdminRegister = () => {
     const [contact, setContact] = useState('');
     const [password, setPassword] = useState('');
 
-    const apiUrl = 'http://localhost:4000';
+    // const apiUrl = 'http://localhost:4000';
+    const apiUrl = process.env.REACT_APP_API_URL;
 
     const successNotify = () => {
         toast.success("Register Successfully !!", {

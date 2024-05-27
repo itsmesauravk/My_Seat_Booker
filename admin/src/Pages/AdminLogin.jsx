@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 
 import '../Css/AdminLogin.css'; 
-import { toast, ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { toast} from 'react-toastify';
 
 const AdminLogin = () => {
   const [email, setEmail] = useState('');
@@ -11,7 +10,9 @@ const AdminLogin = () => {
 
   const navigate = useNavigate();
 
-  const apiUrl = 'http://localhost:4000';
+  // const apiUrl = 'http://localhost:4000';
+  const apiUrl = process.env.REACT_APP_API_URL;
+
 
   const successNotify = () => {
     toast.success('Login Successfully !!', {
@@ -90,7 +91,6 @@ const AdminLogin = () => {
           Don't have an account? <Link to={'/admin/register'}>Create New</Link>
         </p>
       </form>
-      <ToastContainer />
     </div>
   );
 };

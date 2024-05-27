@@ -11,6 +11,7 @@ const cors = require('cors');
 
 //routes import
 const AdminRouter = require('./Admin/Router/authRoute');
+const distRouter = require('./Admin/Router/distRoute');
 
 //for generating secret token
 // const crypto = require('crypto');
@@ -32,7 +33,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 
-app.use('/admin', AdminRouter);
+app.use('/admin', AdminRouter, distRouter);
 
 
 

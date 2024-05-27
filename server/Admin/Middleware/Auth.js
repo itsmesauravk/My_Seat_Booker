@@ -3,7 +3,7 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
 
-const Auth = async (req, res, next) => {
+const AuthenticationAdmin = async (req, res, next) => {
     try {
         const token = req.cookies.token;
         if(!token) {
@@ -20,3 +20,6 @@ const Auth = async (req, res, next) => {
         res.status(400).json({ success:false, message: err.message });
     }
 }
+
+
+module.exports = AuthenticationAdmin;
