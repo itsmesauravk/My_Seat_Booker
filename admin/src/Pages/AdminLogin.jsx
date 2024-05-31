@@ -11,7 +11,8 @@ const AdminLogin = () => {
   const navigate = useNavigate();
 
   // const apiUrl = 'http://localhost:4000';
-  const apiUrl = process.env.REACT_APP_API_URL;
+  const apiUrl = import.meta.env.VITE_APP_BACKEND_URL;
+  // console.log('apiUrl:', import.meta.env.VITE_APP_BACKEND_URL);
 
 
   const successNotify = () => {

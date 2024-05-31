@@ -11,6 +11,7 @@ import DistVehicle from './Pages/DistVehicle';
 import DistAddVehicle from './Pages/DistAddVehicle';
 import DistUpdateDateTime from './Pages/DistUpdateDateTime';
 import ShowSearchBuses from './Pages/ShowSearchBuses';
+import SelectSeat from './Pages/SelectSeat';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/login" element={<LoginPage />} />
         <Route path='/register' element={<RegisterPage/>} />
         <Route path='/buses-results' element={<ShowSearchBuses />} />
+        <Route path='/select-seat' element={<SelectSeat />} />
       </Routes>
     </Router>
   );

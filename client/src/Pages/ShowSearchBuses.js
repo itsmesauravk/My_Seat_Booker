@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../Components/Navbar'
 import AboutUsUser from '../Components/AboutUsUser'
 import '../Css/ShowSearchBuses.css'
+import { Link } from 'react-router-dom'
 
 const ShowSearchBuses = () => {
   return (
@@ -86,7 +87,7 @@ const ShowSearchBuses = () => {
                             <div className='bus-total-seats-left'>Seat Rem : 3 </div>
 
                             <div className='select seat'>
-                                <button className='select-seat-btn'>Select Seat</button>
+                                <Link to='/select-seat'><button className='select-seat-btn'>Select Seat</button></Link>
                             </div>
 
                         </div>
